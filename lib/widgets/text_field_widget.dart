@@ -5,12 +5,12 @@ class TextFieldWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(top: 10,bottom: 15,right: 20,left: 20),
+      padding: const EdgeInsets.only(top: 10,bottom: 15,right: 20,left: 20),
       child: TextField(
         decoration: InputDecoration(
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(7),
-            borderSide: new BorderSide(color: Color(0xff2196F3,
+            borderSide: const BorderSide(color: Color(0xff2196F3,
             ),
             ),
           ),
