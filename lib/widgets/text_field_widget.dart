@@ -17,7 +17,7 @@ class TextFieldWidget extends StatelessWidget {
           hintText: text,
         ),
         style: TextStyle(
-          fontSize: 19,
+          fontSize: 29,
           height: 2,
         ),
       ),
